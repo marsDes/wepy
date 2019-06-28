@@ -15,7 +15,6 @@ const CachedInputFileSystem = require("enhanced-resolve/lib/CachedInputFileSyste
 const parseOptions = require('./parseOptions');
 const moduleSet = require('./moduleSet');
 const loader = require('./loader');
-const logger = require('./logger');
 const Hook = require('./hook');
 
 const ENTRY_FILE = 'app.wpy';
